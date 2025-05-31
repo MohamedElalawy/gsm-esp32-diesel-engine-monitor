@@ -1,8 +1,3 @@
-Got it! Here's the updated, sensor-agnostic version of the `README.md` that doesn't mention specific sensor models but keeps everything professional and complete:
-
----
-
-````markdown
 # Diesel Sentinel 🚛📡  
 > Remote Diesel Engine Monitoring System using ESP32 & SIM800L
 
@@ -40,7 +35,7 @@ Got it! Here's the updated, sensor-agnostic version of the `README.md` that does
 |  Oil Pressure    | ----->  |     ESP32        | ----->  |   SIM800L GSM     | ---> Internet
 |  Engine Status   | ----->  |                  |         |                   |
 +------------------+         +------------------+         +-------------------+
-````
+```
 
 ---
 
