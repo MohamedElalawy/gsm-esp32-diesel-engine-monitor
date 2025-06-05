@@ -1,20 +1,20 @@
-# Diesel Sentinel 🚛📡  
+# Diesel Sentinel 
 > Remote Diesel Engine Monitoring System using ESP32 & SIM800L
 
 **Diesel Sentinel** is an ESP32-based IoT telemetry node for **remote monitoring** of diesel engines. It tracks **engine working hours**, **temperature**, and **oil pressure**, then sends this data to **Google Sheets** via **GSM (SIM800L)** — with no need for Wi-Fi or cloud platforms.
 
 ---
 
-## 🔧 Features
-- 📈 Logs **engine work hours**, **temperature**, and **oil pressure**
-- ☁️ Sends data to **Google Sheets** using HTTP POST over GSM
-- 🛠️ Fully offline — operates without Wi-Fi or external cloud services
-- ⏱️ Configurable update interval (e.g., every 5 minutes)
-- 🔋 Compatible with 12V/24V engine battery systems
+##  Features
+-  Logs **engine work hours**, **temperature**, and **oil pressure**
+-  Sends data to **Google Sheets** using HTTP POST over GSM
+-  Fully offline — operates without Wi-Fi or external cloud services
+-  Configurable update interval (e.g., every 5 minutes)
+-  Compatible with 12V/24V engine battery systems
 
 ---
 
-## 🧩 Hardware Overview
+##  Hardware Overview
 
 | Component             | Description                        |
 |----------------------|------------------------------------|
@@ -27,7 +27,7 @@
 
 ---
 
-## ⚙️ System Architecture
+##  System Architecture
 
 ```plaintext
 +------------------+         +------------------+         +-------------------+
@@ -39,7 +39,7 @@
 
 ---
 
-## 🔥 Data Sent to Google Sheets
+##  Data Sent to Google Sheets
 
 | Timestamp        | Work Hours | Temperature (°C) | Oil Pressure (bar) |
 | ---------------- | ---------- | ---------------- | ------------------ |
@@ -57,7 +57,7 @@ Data is sent in JSON format like:
 
 ---
 
-## 🧪 Setup Instructions
+##  Setup Instructions
 
 ### 1. Google Sheets & Apps Script
 
